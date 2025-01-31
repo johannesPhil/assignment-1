@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <h1>About Me</h1>
+
+    <picture>
+      <source
+        media="(max-width: 600px)"
+        srcset="
+          https://res.cloudinary.com/jphil/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1734277410/Personal/IMG_20241212_134538_y7omkg.jpg
+        "
+      />
+      <source
+        media="(max-width: 1200px)"
+        srcset="
+          https://res.cloudinary.com/jphil/image/upload/v1734277410/Personal/IMG_20241212_134538_y7omkg.jpg
+        "
+      />
+      <img
+        src="https://res.cloudinary.com/jphil/image/upload/c_thumb,w_200,g_face/v1734277410/Personal/IMG_20241212_134538_y7omkg.jpg"
+        alt="A picture of me"
+        style="width: 100%"
+      />
+    </picture>
+
+    <h2>My Journey in Tech</h2>
+    <p>
+      I participated in the Google Africa Developers Scholarship in 2019 making
+      it to the final phase. Got an internship at a startup in 2020. It was
+      shortlived due to the COVID-19 lockdown. Finally got an internship
+      opportunity at a legal tech firm in september 2021 as a Frontend developer
+    </p>
+
+    <h2>My Skills</h2>
+    <ul>
+      <li>Reacct</li>
+      <li>TypeScript</li>
+      <li>Vue</li>
+      <li>Tailwind, SCSS</li>
+    </ul>
+
+    <!-- Adding audio and video elements -->
+
+    <h2>My Interests</h2>
+    <p>I love listening to music, particularly rock music</p>
+    <p>Here's a video of one of my current favorite band</p>
+
+    <iframe
+      width="500"
+      height="720"
+      src="https://www.youtube.com/embed/wE8B_wuSsaY"
+      title="Spiritbox - Too Close / Too Late (Official Music Video)"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
